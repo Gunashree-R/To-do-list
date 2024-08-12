@@ -25,7 +25,8 @@ function addtodo(todo){
 }
 function remove(todo){
     let index = todos.indexOf(todo)
-    if(index>-1){
+    if(index>-1)
+    {
         todos.splice(index,1);
     }
 }
